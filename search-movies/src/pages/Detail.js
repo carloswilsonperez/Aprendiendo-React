@@ -39,7 +39,7 @@ export class Detail extends Component {
       <div>
         <ButtonBackToHome />
         <h1>{Title}</h1>
-        <img src={Poster} />
+        <img src={Poster} alt='Poster'/>
         <h3>{Actors}</h3>
         <span>{Metascore}</span>
         <p>{Plot}</p>
